@@ -68,6 +68,10 @@ Sample output:
     Enter aws profile (default): [enter]
     Enter aws security_group: sg-1234abcd
 
+Documentation_ how to configure an AWS CLI profile to avoid specifying your credentials every time.
+
+.. _Documentation: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-quick-configuration
+
 Installation
 ************
 
