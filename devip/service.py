@@ -3,7 +3,7 @@ from os import path
 
 from devip.utils import get_input, current_ip, cidr, console, require, log
 
-SETTINGS_FILENAME = '.devip.json'
+SETTINGS_FILENAME = '{}/.devip.json'.format(path.expanduser('~'))
 USER_DEFAULTS = {'temp': [], 'perm': []}
 
 

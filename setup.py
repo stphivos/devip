@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='devip',
     packages=['devip', 'devip.services'],
-    version='0.1.11',
+    version='0.1.14',
     description='CLI that updates your public IP address in external services you use and depend on IP-authentication.',
     author='Phivos Stylianides',
     author_email='stphivos@gmail.com',
